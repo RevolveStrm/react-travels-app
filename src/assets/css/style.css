@@ -89,6 +89,7 @@ body {
   line-height: 1.5;
   text-rendering: optimizespeed;
   background-color: var(--color-white);
+  height: 100vh;
 }
 
 main {
@@ -121,6 +122,13 @@ select {
 }
 
 /* components */
+
+#root {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* input */
 
